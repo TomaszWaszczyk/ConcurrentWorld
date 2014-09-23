@@ -6,9 +6,9 @@ public class TestE1 {
 		
 		System.out.println("Creating threads in Java language");
 	
-		E1 text1 = new E1("aaaaaaaaaaaaa");
-		E1 text2 = new E1("bbbbbbbbbbbbb");
-		E1 text3 = new E1("ccccccccccccc");
+		MyFirstThread text1 = new MyFirstThread("aaaaaaaaaaaaa");
+		MyFirstThread text2 = new MyFirstThread("bbbbbbbbbbbbb");
+		MyFirstThread text3 = new MyFirstThread("ccccccccccccc");
 		
 		Thread t1 = new Thread(text1);
 		Thread t2 = new Thread(text2);

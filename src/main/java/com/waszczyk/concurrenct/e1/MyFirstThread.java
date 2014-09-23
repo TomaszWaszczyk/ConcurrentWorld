@@ -1,10 +1,10 @@
 package com.waszczyk.concurrenct.e1;
 
-public class E1 implements Runnable{
+public class MyFirstThread implements Runnable{
 
 	private String text;
 	
-	public E1(String text){
+	public MyFirstThread(String text){
 		
 		this.text = text;
 	}
